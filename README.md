@@ -58,3 +58,5 @@ The optimized summary report:
 
 
 ## Summary
+
+This deep learning model performed relatively well overall. With more time and a larger dataset, it could be optimized further. An alternative to use for this problem would be a random forest model. The random forest model would work in a decision tree fashion, using classification rather than a neural network. To use a random forest, the data may need to be preprocessed in a slightly different way.
