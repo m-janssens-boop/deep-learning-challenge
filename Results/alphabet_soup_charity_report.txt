@@ -39,11 +39,11 @@ Finally, all variables were scaled using the `Standard_Scaler()` function.
 The initial model did not include `NAME` as a feature variable and had the following structure of 
 neurons, layers, and activation functions:
 
-INCLUDE PHOTO HERE
+*see initial_model_structure.png in results folder*
 
 The initial model had a ~72% accuracy, with the following summary report:
 
-INCLUDE PHOTO HERE
+*see initial_model_report.png in results folder*
 
 To optimize the model and increase the performance, the `NAME` feature was added back into the dataset, 
 the `CLASSIFICATION` value_counts were binned one degree higher, the number of neurons were greatly 
@@ -59,13 +59,13 @@ other attempts included:
 The optimized model has the following structure of neurons, layers, and activation functions:
 
 
-INCLUDE PHOTO HERE
+*see optimized_model_structure.png in results folder*
 
 
 The optimized summary report:
 
 
-INCLUDE PHOTO HERE
+*see optimized_model_report.png in results folder*
 
 
 ## Summary
