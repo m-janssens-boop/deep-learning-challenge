@@ -31,11 +31,13 @@ The `EIN` variable was removed from the dataset because it is a redundant variab
 
 The initial model did not include `NAME` as a feature variable and had the following structure of neurons, layers, and activation functions:
 
-INCLUDE PHOTO HERE
+<img width="518" alt="initial_model_structure" src="https://github.com/m-janssens-boop/deep-learning-challenge/assets/127706155/a5a018e4-dc54-4710-bf7e-f4058052c260">
+
 
 The initial model had a ~72% accuracy, with the following summary report:
 
-INCLUDE PHOTO HERE
+<img width="534" alt="initial_model_report" src="https://github.com/m-janssens-boop/deep-learning-challenge/assets/127706155/90307177-198a-4142-bbc9-d175e49be9bd">
+
 
 To optimize the model and increase the performance, the `NAME` feature was added back into the dataset, the `CLASSIFICATION` value_counts were binned one degree higher, the number of neurons were greatly reduced, and the model performed much better, achieving a ~78% accuracy. Prior to this final optimization, other attempts included:
 - Increasing the number of neurons
@@ -48,13 +50,11 @@ To optimize the model and increase the performance, the `NAME` feature was added
 The optimized model has the following structure of neurons, layers, and activation functions:
 
 
-INCLUDE PHOTO HERE
-
+<img width="498" alt="optimized_model_structure" src="https://github.com/m-janssens-boop/deep-learning-challenge/assets/127706155/7a2fce50-eefc-44bd-b651-3ea740f924b1">
 
 The optimized summary report:
 
-
-INCLUDE PHOTO HERE
+<img width="504" alt="optimized_model_report" src="https://github.com/m-janssens-boop/deep-learning-challenge/assets/127706155/f5f64bea-06c8-4365-8983-7a378dfac1c0">
 
 
 ## Summary
